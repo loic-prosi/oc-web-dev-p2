@@ -15,6 +15,10 @@
   font-size: 16px;
 }
 
+.card-subtitle {
+  margin: 0;
+}
+
 .euro {
   font-weight: 700;
 }
