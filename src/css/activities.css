@@ -13,8 +13,11 @@
   row-gap: 30px;
 }
 
-.activities-cards .card {
+.activities-cards .card-container {
   width: 23%;
+}
+
+.activities-cards .card {
   padding: 0;
 }
 
