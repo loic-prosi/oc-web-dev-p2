@@ -1,0 +1,38 @@
+/****** General ***********/
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+  --active-brightness: 0.5;
+}
+
+.fa-solid {
+  color: var(--main-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* ... */
+}
