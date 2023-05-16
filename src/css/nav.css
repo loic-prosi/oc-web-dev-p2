@@ -38,7 +38,6 @@
 
 .nav-list-item a:active {
   padding-top: 14px;
-  color: var(--main-color);
-  border-top: 2px solid var(--main-color);
-  filter: brightness(var(--active-brightness));
+  color: var(--main-color-darker-50);
+  border-top: 2px solid var(--main-color-darker-50);
 }
