@@ -148,3 +148,21 @@
 .search-info-icon-container > i {
   font-size: 11px;
 }
+
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+  .search-filters {
+    flex-wrap: wrap;
+  }
+
+  .search-filters p {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .search-filters-button:first-of-type {
+    margin-left: 0px;
+  }
+}

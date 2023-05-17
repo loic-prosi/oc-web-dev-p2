@@ -1,4 +1,5 @@
 /****** Hosting / Popular ***********/
+
 .hosting-popular {
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,7 @@
 }
 
 /****** Hosting ***********/
+
 .hosting {
   width: 65%;
 }
@@ -61,6 +63,7 @@
 }
 
 /****** Popular ***********/
+
 .popular {
   width: 32%;
 }
@@ -95,9 +98,8 @@
   margin-bottom: 5px;
 }
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hosting-popular {
@@ -119,8 +121,8 @@
     justify-content: space-between;
   }
 
-  .popular-cards .card {
-    width: 30%;
+  .popular-cards .card-container {
+    width: 31%;
   }
 
   .popular-cards .card-title {
