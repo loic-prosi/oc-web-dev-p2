@@ -23,6 +23,7 @@
   border: none;
   font-size: 18px;
   font-weight: bold;
+  background-color: transparent;
 }
 
 .hosting-button:hover {
