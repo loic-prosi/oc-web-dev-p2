@@ -183,6 +183,7 @@
     align-items: center;
     justify-content: center;
     width: 49px;
+    border-radius: 15px;
   }
 
   .search-form-button-icon {
