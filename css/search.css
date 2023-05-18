@@ -47,8 +47,8 @@
 }
 
 .search-form-input::placeholder {
-  text-align: center;
   color: black;
+  opacity: 1; /** To change color of placeholder in firefox browser**/
 }
 
 .search-form-button {
@@ -197,10 +197,6 @@
   .search-form-input {
     width: 100%;
     margin-right: 25px;
-  }
-
-  .search-form-input::placeholder {
-    text-align: left;
   }
 
   .search-form-button-text {
