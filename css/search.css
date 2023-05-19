@@ -138,19 +138,17 @@
   margin-top: 15px;
 }
 
-.search-info-icon-container {
+.search-info-icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /** Prevent width to shrink when resizing screen **/
   width: 24px;
   height: 24px;
   margin-right: 10px;
+  font-size: 11px;
   border: 1px solid var(--main-bg-color);
   border-radius: 100px;
-}
-
-.search-info-icon-container > i {
-  font-size: 11px;
 }
 
 /****** Media queries ***********/
