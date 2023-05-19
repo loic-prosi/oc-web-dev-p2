@@ -315,11 +315,15 @@ a {
   font-size: 18px;
   font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .hosting-button:hover {
   color: var(--main-color);
-  cursor: pointer;
+}
+
+.hosting-button:active {
+  color: var(--main-color-darker-25);
 }
 
 .hosting-cards {
