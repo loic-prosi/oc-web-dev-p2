@@ -122,6 +122,7 @@ body {
 }
 
 .search-form-input {
+  width: 147px;
   padding: 0 22px 0 22px;
   border: 1px solid var(--main-bg-color);
   font-size: 18px;
