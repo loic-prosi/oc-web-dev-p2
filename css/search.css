@@ -20,19 +20,16 @@
   margin-top: 40px;
 }
 
-.search-form-icon-container {
+.search-form-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  background-color: var(--main-bg-color);
-  border-radius: 15px 0 0 15px;
-}
-
-.search-form-icon-container i {
+  flex-shrink: 0; /** Prevent width to shrink when resizing screen **/
   width: 49px;
   font-size: 18px;
   color: black;
+  background-color: var(--main-bg-color);
+  border-radius: 15px 0 0 15px;
 }
 
 .search-form-input {
