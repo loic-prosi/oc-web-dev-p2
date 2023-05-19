@@ -121,7 +121,7 @@
   outline-color: var(--main-color);
 }
 
-.search-filters-button > i {
+.search-filters-button i {
   margin-right: 12px;
   font-size: 22px;
   color: var(--main-color);
