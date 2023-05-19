@@ -174,17 +174,19 @@
   }
 
   .search-form-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     width: 49px;
     height: 49px;
-    border-radius: 15px;
     right: 25px;
+    padding: 0;
+    border-radius: 15px;
   }
 
   .search-form-button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
     display: block;
     color: white;
   }
