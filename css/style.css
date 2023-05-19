@@ -133,6 +133,13 @@ body {
   outline-color: var(--main-color);
 }
 
+/** Change input outline in firefox browser only **/
+@-moz-document url-prefix() {
+  .search-form-input:focus {
+    outline-offset: -2px;
+  }
+}
+
 .search-form-input::placeholder {
   color: black;
   opacity: 1; /** To change color of placeholder in firefox browser**/
