@@ -41,18 +41,6 @@ a {
 
 /****** Card ***********/
 
-.card-container {
-  color: black;
-}
-
-.card-container:hover .card {
-  background-color: var(--filter-bg-color);
-}
-
-.card-container:hover .card img {
-  filter: opacity(0.9) drop-shadow(0 0 var(--filter-bg-color));
-}
-
 .card {
   background-color: white;
   border-radius: 20px;
@@ -60,8 +48,25 @@ a {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
+.card:hover {
+  background-color: var(--filter-bg-color);
+}
+
+.card:hover img {
+  filter: opacity(0.9) drop-shadow(0 0 var(--filter-bg-color));
+}
+
 .card img {
   object-fit: cover;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .card-content {
@@ -247,7 +252,6 @@ a {
   background-color: white;
   border: 2px solid var(--main-bg-color);
   border-radius: 25px;
-  border-color: var(--main-bg-color);
   font-size: 17px;
   font-weight: bold;
   cursor: pointer;
@@ -330,12 +334,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
+  gap: 30px 10px;
   margin-top: 30px;
 }
 
-.hosting-cards .card-container {
-  width: 29%;
+.hosting-cards .card {
+  width: 30%;
 }
 
 .hosting-cards img {
@@ -378,8 +382,7 @@ a {
   display: flex;
 }
 
-.popular-cards .card-container {
-  display: block;
+.popular-cards .card {
   margin-top: 30px;
 }
 
@@ -417,7 +420,7 @@ a {
   row-gap: 30px;
 }
 
-.activities-cards .card-container {
+.activities-cards .card {
   width: 23%;
 }
 
@@ -523,7 +526,7 @@ a {
     justify-content: space-between;
   }
 
-  .popular-cards .card-container {
+  .popular-cards .card {
     width: 31%;
   }
 
@@ -655,8 +658,8 @@ a {
     margin-top: 10px;
   }
 
-  .hosting-cards .card-container,
-  .popular-cards .card-container {
+  .hosting-cards .card,
+  .popular-cards .card {
     width: 100%;
   }
 
@@ -695,7 +698,7 @@ a {
     margin-top: 15px;
   }
 
-  .popular-cards .card-container {
+  .popular-cards .card {
     margin-top: 0px;
   }
 
@@ -705,7 +708,7 @@ a {
 
   /****** Activities ***********/
 
-  .activities-cards .card-container {
+  .activities-cards .card {
     width: 100%;
   }
 
