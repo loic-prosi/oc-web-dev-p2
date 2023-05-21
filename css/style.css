@@ -52,15 +52,15 @@ a {
   background-color: var(--filter-bg-color);
 }
 
-.card:hover img {
+.card:hover .card-image {
   filter: opacity(0.9) drop-shadow(0 0 var(--filter-bg-color));
 }
 
-.card img {
+.card-image {
   object-fit: cover;
 }
 
-.card-link {
+.card-content-link {
   position: absolute;
   top: 0;
   left: 0;
@@ -76,19 +76,19 @@ a {
   box-sizing: border-box;
 }
 
-.card-title {
+.card-content-title {
   font-size: 16px;
 }
 
-.card-subtitle {
+.card-content-subtitle {
   margin: 0;
 }
 
-.euro {
+.card-content-subtitle-currency {
   font-weight: 700;
 }
 
-.neutral-star {
+.card-content-rating-star-neutral {
   color: var(--main-bg-color);
 }
 
@@ -233,12 +233,12 @@ a {
   margin-top: 30px;
 }
 
-.search-filters-container {
+.search-filters-buttons {
   display: flex;
   align-items: center;
 }
 
-.search-filters p {
+.search-filters-label {
   font-size: 18px;
   font-weight: bold;
 }
@@ -348,7 +348,7 @@ a {
   border-radius: 20px 20px 0 0;
 }
 
-.hosting-cards .card-title {
+.hosting-cards .card-content-title {
   margin-top: 5px;
   margin-bottom: 8px;
 }
@@ -357,7 +357,7 @@ a {
   padding-left: 12px;
 }
 
-.hosting-cards .card-rating {
+.hosting-cards .card-content-rating {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -396,12 +396,12 @@ a {
   padding-left: 15px;
 }
 
-.popular-cards .card-title {
+.popular-cards .card-content-title {
   margin-top: 10px;
   margin-bottom: 4px;
 }
 
-.popular-cards .card-rating {
+.popular-cards .card-content-rating {
   margin-bottom: 5px;
 }
 
@@ -428,7 +428,7 @@ a {
   padding: 0;
 }
 
-.activities-cards .card img {
+.activities-cards .card-image {
   width: 100%;
   height: 380px;
   border-radius: 20px 20px 0 0;
@@ -438,7 +438,7 @@ a {
   padding-left: 20px;
 }
 
-.activities-cards .card-title {
+.activities-cards .card-content-title {
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -492,7 +492,7 @@ a {
     flex-wrap: wrap;
   }
 
-  .search-filters p {
+  .search-filters-label {
     width: 100%;
     margin-top: 5px;
   }
@@ -530,11 +530,11 @@ a {
     width: 31%;
   }
 
-  .popular-cards .card-title {
+  .popular-cards .card-content-title {
     font-size: 14px;
   }
 
-  .popular-cards .card-subtitle {
+  .popular-cards .card-content-subtitle {
     font-size: 13px;
   }
 }
@@ -631,7 +631,7 @@ a {
 
   /****** Search filters ***********/
 
-  .search-filters-container {
+  .search-filters-buttons {
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 20px;
@@ -712,7 +712,7 @@ a {
     width: 100%;
   }
 
-  .activities-cards .card img {
+  .activities-cards .card-image {
     width: 100%;
     height: 141px;
     border-radius: 20px 20px 0 0;
