@@ -334,12 +334,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px 10px;
+  gap: 30px;
   margin-top: 30px;
 }
 
 .hosting-cards .card {
-  width: 30%;
+  width: 27%;
+  flex-grow: 1;
 }
 
 .hosting-cards img {
@@ -418,9 +419,6 @@ a {
 
 .activities-cards .card {
   width: 23%;
-}
-
-.activities-cards .card {
   padding: 0;
 }
 
